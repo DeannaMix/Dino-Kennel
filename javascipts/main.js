@@ -1,10 +1,10 @@
 
-import { printDinos } from '../dino-data.js'
+import { printAllDinos } from './components/dino-Cards.js'
 // import { unhealthyDinos } from './unhealthy-dinos.js'
 
 const init = () => {
     dinos()
-    printDinos();
+    printAllDinos();
 }
 
 init()

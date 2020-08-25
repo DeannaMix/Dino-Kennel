@@ -151,4 +151,12 @@ const dinos = [
     },
   ];
 
-  export { dinos, adventures }
+  const dinoObjects = () => {
+      return dinos
+  }
+
+  const adventureObjects = () => {
+      return adventures
+  }
+
+  export { dinoObjects, adventureObjects }
