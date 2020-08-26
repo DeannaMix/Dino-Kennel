@@ -16,12 +16,13 @@
     </header>
 
     <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+<button type="button" class="btn btn-primary" id="user-add-dino" data-toggle="modal" data-target="#staticBackdrop">
     Want to Add Your Dinosaur?
   </button>
+  <div id="user-added-dino"></div>
   
   <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <!-- <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -58,7 +59,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="dino-kennel" id="kennel"></div>
   <div class="dino-hospital" id="hospital"></div>
@@ -70,6 +71,6 @@
   crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script type="module" src="javascripts/main.js"></script>
+<script type="module" src="./javascripts/main.js"></script>
 </body>
 </html>
