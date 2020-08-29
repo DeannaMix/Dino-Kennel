@@ -17,11 +17,6 @@ This app lets you view dinosaurs in a kennel. The dinosaurs are sorted between h
 
 
 
-## How to Run
-1. Clone down this repo
-1. Make sure you have http-server installed via npm. If not get it [HERE](https://www.npmjs.com/package/http-server).
-1. On your command line run `hs -p 9999`
-1. In your browser go to `http://localhost:9999`
-
+## Launch this app in Netlify!
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/762fb81f-9e69-4aed-b5d6-8fb61a23bf20/deploy-status)](https://app.netlify.com/sites/dino-kennel-deanna/deploys)
