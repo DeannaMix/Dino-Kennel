@@ -3,6 +3,7 @@ import { dinoObjects, adventureObjects } from '../helpers/data/dinoData.js'
 import { petDinoClick } from './petDino.js'
 import { feedDinoClick } from './feedDino.js'
 import {addUserDinoForm } from './addDino.js'
+// import { dinoAdventure } from './dinoAdventure.js'
 
 const printAllDinos = (array) => {
   $('#dino-kennel').empty()
@@ -19,12 +20,12 @@ const printAllDinos = (array) => {
     $(`#remove-${item.id}`).click(() => {
       array.splice(index, 1)
       printAllDinos(array)
-      console.log("remove")
     })
   })
   petDinoClick()
   feedDinoClick()
   addUserDinoForm()
+  // dinoAdventure()
 
 }
 
