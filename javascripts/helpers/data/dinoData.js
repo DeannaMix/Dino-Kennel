@@ -162,4 +162,4 @@ const dinos = [
       return adventures
   }
 
-  export { dinoObjects, adventureObjects, dinos }
+  export { dinoObjects, adventureObjects, dinos, adventures, }
