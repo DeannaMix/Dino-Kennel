@@ -1,36 +1,17 @@
 # Dino Kennel
 
-## **NOTE:** You cannot start coding until your project board and tickets have been approved by an instructor
+## The first project for NSS Evening Cohort 13
 
 ## Description
-This project showcases all the vanilla javascript we learned in the foundations milestones.  It is designed to be a record keeping application for a dinosaur kennel.
-
-### Feature List
-- Healthy dinos show in the kennel
-- Sick dinos show in the hospital
-- Dead dinos show in the graveyard
-- Dinos can be removed from the kennel
-- Dinos can be added to the kennel
-- Dinos can be fed
-- Dinos can be petted
-- Dinos can be sent on an adventure
-
-## Technical Requirements
-* You must use [Boostrap](https://getbootstrap.com/) to style your page components.
-* Your JS file should be comprised of functions, no actions should happen in your code outside of a function
-* Your HTML and JS should all have proper indentations
-* You should be using ES6 modules
-* Your JS code should be formatted correctly!
+This app lets you view dinosaurs in a kennel. The dinosaurs are sorted between healthy, sick, and dead dinousaurs. You can also add your own dinosaur with a picture as well. You can pet, feed, and send the dinosaurs on an adventure. If you believe the dinosaur does not belong in the kennel, you may remove the dinosaur from the kennel by clicking the "remove" button.
 
 ## Screenshots
 ### Full Page view
-![Main View](./screenshots/main.png)
+![Main View](./screenshots/image 1.png)
+![Main View](./screenshots/image 2.png)
+![Main View](./screenshots/image 3.png)
 
-### Single Dino Modal
-![Single Dino Modal](./screenshots/single-dino.png)
 
-### Add New Dino
-![Add a Dino](./screenshots/add-dino.png)
 
 ## How to Run
 1. Clone down this repo
