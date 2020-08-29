@@ -1,19 +1,24 @@
-import { adventures } from "../helpers/data/dinoData.js"
+// import { adventures } from "../helpers/data/dinoData.js"
 // import { printAllDinos } from "./dinoCards.js";
 
 // const startAdventure = (array) => {
 //     return array[Math.floor(Math.random() * array.length)];
 // }
 
-// const dinoAdventure = (item, array) => {
-//     $(`#adventure-${item.id}`).click(() => {
-//         item.dinoAdventure.push({adventure: startAdventure(any).title})
-//         printAllDinos(array)
+// const dinoAdventure = (index, item, array) => {
+//     $(`#adventure-${index}`).click(() => {
+//         item.adventures.push({})
 //     })
 // }
 
-// const log = 
+const adventureDinoClick = () => {
+    $(".adventure-dino").click(() => {
+        alert("This dino is now out adventuring!")
+    })
+}
 
+
+export { adventureDinoClick }
 
 
 // export { dinoAdventure }
