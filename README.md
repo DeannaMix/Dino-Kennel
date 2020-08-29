@@ -8,7 +8,11 @@ This app lets you view dinosaurs in a kennel. The dinosaurs are sorted between h
 ## Screenshots
 ### Full Page view
 ![](https://github.com/DeannaMix/Dino-Kennel/blob/master/screenshots/image%201.png?raw=true)
+
+## Add Dino Function
 ![](https://github.com/DeannaMix/Dino-Kennel/blob/master/screenshots/image%202.png?raw=true)
+
+## Pet Dino Function
 ![](https://github.com/DeannaMix/Dino-Kennel/blob/master/screenshots/Image%203.png?raw=true)
 
 
