@@ -1,5 +1,5 @@
-import { dinoObjects } from '../../helpers/data/dino-array.js'
-import { printAllDinos } from './dino-Cards.js'
+import { dinoObjects, dinos } from '../helpers/data/dinoData.js'
+import { printAllDinos } from './dinoCards.js'
 
 const addUserDinoForm = () => {
     $('#user-add-dino').on('click', () => {
@@ -13,8 +13,8 @@ const addUserDinoForm = () => {
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
+        <form id="dino-form-container">
         <div class="modal-body">
-            <form id="dino-form-container">
                 <div class="form-column">
                   <div class="col">
                     <input type="text" class="form-control" id="dino-name" placeholder="Dino Name">
@@ -33,37 +33,35 @@ const addUserDinoForm = () => {
                   </div>
                   
                 </div>
-              </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Nevermind!</button>
-          <button type="button" class="btn btn-primary">Enter My Dino!</button>
+          <button type="submit" class="btn btn-primary">Enter My Dino!</button>
         </div>
+        </form>
       </div>
     </div>
   </div>
         `)
+        $("#dino-form-container").submit((event) => {
+            event.preventDefault();
+        
+            let newDino = {
+                name: $('#dino-name').val(),
+                owner: $('#owner-name').val(),
+                age: $('#dino-age').val(),
+                imageUrl: $('#dino-image-url').val(),
+                type: $('#dino-type').val(),
+                health: 100,
+            }
+        
+            dinos.push(newDino)
+            printAllDinos(dinos)
+            
+        });
     })
 }
 
-const submitUserDinoForm = () => {
-    $("#dino-form-container").submit((event) => {
-        event.preventDefault();
-
-        let newDino = {}
-            newDino.name = $('#dino-name').val();
-            newDino.owner = $('#owner-name').val();
-            newDino.age = $('#dino-age').val();
-            newDino.type = $('#dino-image-url').val();
-            newDino.image = $('#dino-type').val();
-            newDino.health = 100;
-        
-        dinoObjects.push(newDino)
-        return printAllDinos(dinoObjects)
-        
-    });
-
-}
 
 const clearUserDinoForm = () => {
 

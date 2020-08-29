@@ -40,7 +40,7 @@ const dinos = [
       adventures: [],
       health: 100,
       imageUrl:
-        "https://lh3.googleusercontent.com/proxy/_rJSL88ErOEvgHl5SInWOEolOdikwIMcKWPv9iqZzt3IUkD33WdG6d9qd8TmNJFSiszTXm7JeGQPocmB_BZErKxt__25LOpW75dmnVuy0nuY0PatX2cIYA-C",
+        "https://cdn11.bigcommerce.com/s-ob7m2s98/images/stencil/2000x2000/products/11715/30606/5313-brontosaurus-ride-on-hansa-toys-usa-500x500__74075.1501619283.jpg?c=2"
     },
     {
       id: "dino5",
@@ -162,4 +162,4 @@ const dinos = [
       return adventures
   }
 
-  export { dinoObjects, adventureObjects }
+  export { dinoObjects, adventureObjects, dinos }
