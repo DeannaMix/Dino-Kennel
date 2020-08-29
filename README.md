@@ -7,9 +7,9 @@ This app lets you view dinosaurs in a kennel. The dinosaurs are sorted between h
 
 ## Screenshots
 ### Full Page view
-![Main View](./screenshots/image 1.png)
-![Main View](./screenshots/image 2.png)
-![Main View](./screenshots/image 3.png)
+![](screenshots/image 1.png)
+![](screenshots/image 2.png)
+![](screenshots/image 3.png)
 
 
 
